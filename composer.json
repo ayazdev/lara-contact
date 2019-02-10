@@ -15,5 +15,13 @@
 		"psr-4":{
 			"ayazdev\\Contact\\":"src/"
 		}
-	}
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"ayazdev\\Contact\\ContactServiceProvider"
+			]
+		}
+	},
+	
 }
