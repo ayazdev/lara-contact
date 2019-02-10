@@ -1,0 +1,19 @@
+{
+    "name": "ayazdev/lara-contact",
+    "description": "The job of this form is to send the email and save record into database.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ayazdev",
+            "email": "iyazinfo@gmail.com"
+        }
+    ],
+    "minimum-stability": "alpha",
+    "require": {}, 
+	"autoload":{
+		"psr-4":{
+			"ayazdev\\Contact\\":"src/"
+		}
+	}
+}
