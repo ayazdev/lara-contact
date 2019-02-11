@@ -11,8 +11,8 @@
     <body>
 		<div class="main-container">
 			<h3>Contact Form Package For Laravel</h3>
-			<div class="messages"></div>
-			<form id="contact-form" action="{{route('contact')}}" method="post" autocomplete="off">
+			<div id="messages"></div>
+			<form id="contact-form" action="{{route('contact')}}" method="post" autocomplete="off" data-route="{{ route('postForm') }}">
 				@csrf
 				<input type="text" name="name" placeholder="Your Name" ><br />
 				<input type="text" name="email" placeholder="Your Email" ><br />
