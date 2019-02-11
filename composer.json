@@ -1,6 +1,6 @@
 {
     "name": "ayazdev/lara-contact",
-    "description": "The job of this form is to send the email and save record into database.",
+    "description": "This is a contact package of laravel, which job is to send email and then save in database.",
     "type": "library",
     "license": "MIT",
     "authors": [
