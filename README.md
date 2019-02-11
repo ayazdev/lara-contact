@@ -4,5 +4,13 @@
 [![fork this repo](http://githubbadges.com/fork.svg?user=ayazdev&repo=lara-contact&style=flat)](https://github.com/ayazdev/lara-contact/fork)
 
 
-### The job of this form is to send the email and save record into database.
+This is a contact package of laravel, which job is to send email and then save in database.
+
+## Usage
+
+### Step 1: Install Through Composer
+
+```
+composer require ayazdev/lara-contact
+```
 
