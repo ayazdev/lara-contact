@@ -9,6 +9,7 @@
 		<link rel="stylesheet" href="{{url('css/contact/contact.css')}}">
 	</head>
     <body>
+		<!--BEGIN CONTAINER-->
 		<div class="main-container">
 			<h3>Contact Form Package For Laravel</h3>
 			<div id="messages"></div>
@@ -20,6 +21,7 @@
 				<button type="submit" value="submit">Send</button>
 			</form>
 		</div>
+		<!--END CONTAINER-->
 		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 		<script src="{{url('js/contact/contact.js')}}"></script>
     </body>
