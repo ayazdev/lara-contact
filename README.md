@@ -20,3 +20,9 @@ composer require ayazdev/lara-contact
 php artisan vendor:publish --tag=public
 ```
 
+### Step 3: Run Migration
+
+```
+php artisan artisan:migrate
+```
+
