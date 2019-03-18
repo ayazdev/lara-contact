@@ -14,3 +14,9 @@ This is a contact package of laravel, which job is to send email and then save i
 composer require ayazdev/lara-contact
 ```
 
+### Step 2: Publish The Vendor
+
+```
+php artisan vendor:publish --tag=public
+```
+
