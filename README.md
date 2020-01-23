@@ -26,3 +26,9 @@ php artisan vendor:publish --tag=public
 php artisan artisan:migrate
 ```
 
+### Step 4: Add email variable to .env file
+
+```
+in .env file add variable CONTACT_TO with your email address, for example CONTACT_TO=yourEmail@example.com
+```
+
