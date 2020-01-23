@@ -2,5 +2,5 @@
 
 
 return [
-	'send_email_to' => 'iyazinfo@gmail.com'
+	'send_email_to' => env('CONTACT_TO', 'YourEmail@example.com')
 ];
